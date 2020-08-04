@@ -39,3 +39,5 @@ AddCustomer "", "Bingo", "1100 Sunset blvd", "Hollywood", "CA", "98286"
 AddCustomer "Olala", "", "1100 Sunset blvd", "Hollywood", "CA", "98286"
 
 ' To test new ideas
+' Valid input
+AddCustomer "Den", "Pithon", "1 55 Street", "AAAAA", "ON", "R4V E3M"
