@@ -1,0 +1,30 @@
+' *************************************************************************************************
+'' ABC Automated Testing
+'' Copyright (c) 2013 ABC
+'' All Rights Reserved Worldwide
+'' Unautorized Duplication or Distribution Prohibited
+'' **************************************************************************************************
+'' FILENAME: Addcustomer
+'' **************************************************************************************************
+'' ABOUT THIS FILE
+'' AUTHOR IDENTITY:
+'' Initials                          Name/Company
+'' -----------                       --------------------------------
+''                                   ABC INC
+'' REVISION HISTORY:
+'' Date/Initials             Comments
+'' ------------              ------------------------------------
+'' 10/03/2013         Created for ABC Inc
+
+'' ***********************************************************
+'' SCRIPT
+
+
+' Valid input
+AddCustomer "Lola", "Roberts", "1100 Sunset blvd", "Hollywood", "CA", "98286"
+
+' Invalid input - missing First Name
+AddCustomer "", "Bingo", "1100 Sunset blvd", "Hollywood", "CA", "98286"
+
+' Invalid input - missing Last Name
+AddCustomer "Olala", "", "1100 Sunset blvd", "Hollywood", "CA", "98286"
