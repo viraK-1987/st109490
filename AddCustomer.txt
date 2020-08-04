@@ -37,3 +37,5 @@ AddCustomer "", "Bingo", "1100 Sunset blvd", "Hollywood", "CA", "98286"
 
 ' Invalid input - missing Last Name
 AddCustomer "Olala", "", "1100 Sunset blvd", "Hollywood", "CA", "98286"
+
+' To test new ideas
