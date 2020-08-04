@@ -23,6 +23,15 @@
 ' Valid input
 AddCustomer "Lola", "Roberts", "1100 Sunset blvd", "Hollywood", "CA", "98286"
 
+' Valid input
+AddCustomer "John", "Smith", "2255 Tailor Drive", "Calgary", "AB", "T6N 0Y6"
+
+' Valid input
+AddCustomer "Sarah", "Guru", "55 West Street", "Edmonton", "BC", "P9E 4F6"
+
+' Valid input
+AddCustomer "Nata", "Nata", "222 Sunset blvd", "Hollywood", "CA", "98285"
+
 ' Invalid input - missing First Name
 AddCustomer "", "Bingo", "1100 Sunset blvd", "Hollywood", "CA", "98286"
 
